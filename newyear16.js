@@ -37,5 +37,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'January 1 2016';
+var deadline = 'December 31 2015 23:59:59 GMT+07:00';
 initializeClock('clockdiv', deadline);
